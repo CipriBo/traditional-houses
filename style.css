@@ -1,0 +1,14 @@
+body {
+    background: #ECE3DA;
+}
+
+
+
+@include media-breakpoint-up(sm) {
+    .section_how {
+        padding-bottom: 1rem;
+        border-bottom: 20px solid #ccc;
+    }
+
+
+}
