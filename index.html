@@ -8,15 +8,19 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="javascript.js">
   <link rel="stylesheet" href="/fontawesome-free-5.13.0-web/css/all.css" />
   <title>Rural Houses</title>
 </head>
 
 <body>
-  <!--************* Wrapper **************-->
-  <div id="wrapper">
-    <!--***********  Navigation Bar *******-->
 
+  <!--************************ Wrapper *************************-->
+  <div id="wrapper">
+
+
+
+    <!--**********************  Navigation Bar **********************-->
     <section class="section_header container mb-3 mt-3">
       <div class="d-flex flex-column">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -48,37 +52,38 @@
           </div>
         </nav>
     </section>
+    <br>
 
-    <!--*********  First Section / WHY  **************-->
 
+
+    <!--********************  First Section / WHY  *************************-->
     <section class="section_why container" id="first_section">
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <img src="/Photos/why.jpg" alt="#" class="img-fluid rounded" alt="Responsive image">
+          <img src="/Photos/why.jpg" alt="#" class=" shadow img-fluid rounded" alt="Responsive image">
         </div>
 
         <div class="col-md-6 col-sm-12 align-self-center">
-          <h2 class="text-center">why build a traditional house</h2>
+          <h2 class="text-center title">why build a traditional house</h2>
           <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dolor
             voluptatum perferendis possimus
             eligendi praesentium omnis, adipisci reiciendis quas autem?</p>
         </div>
       </div>
     </section>
-
-
-    <!--***********  Second Section / HOW  *************-->
-
-
     <br>
+
+
+
+    <!--**********************  Second Section / HOW  ************************-->
     <section class="section_how container mb-5">
       <div class="row">
         <div class="col-md-6 col-sm-12 order-first order-md-2 ">
-          <img src="/Photos/how.jpg" alt="#" class="rounded img-fluid" alt="Responsive image">
+          <img src="/Photos/how.jpg" alt="#" class=" shadow rounded img-fluid" alt="Responsive image">
         </div>
 
         <div class="col-md-6 col-sm-12 align-self-center">
-          <h2 class="text-center">how it's built</h2>
+          <h2 class="text-center title">how it's built</h2>
           <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dolor
             voluptatum perferendis possimus
             eligendi praesentium omnis, adipisci reiciendis quas autem?</p>
@@ -87,61 +92,82 @@
     </section>
 
 
-
-    <!--***********  Third Section / MODELS  *************-->
-    <br>
+    <!--**********************  Third Section / MODELS  ************************-->
     <section class="section_models container">
-      <h2 class="text-center">each region has it's character</h2>
+      <h2 class="text-center title">each region has it's character</h2>
       <div class="card-deck text-center">
-        <div class="card">
+        <div class="card shadow">
           <img class="card-img-top" src="/Photos/Moldova.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">moldova</h5>
+            <h4 class="card-title">moldova</h4>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem?</p>
           </div>
         </div>
-        <div class="card ">
+        <div class="card shadow">
           <img class="card-img-top" src="/Photos/Transilvania.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title mt-sm-2">transilvania</h5>
+            <h4 class="card-title mt-sm-2">transilvania</h4>
             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, deleniti?</p>
           </div>
         </div>
         <!-- wrap every 2 on sm-->
-        <div class="w-100 d-none d-sm-block d-md-none">
+        <div class="w-100 d-sm-block d-lg-none">
         </div>
-        <div class="card mt-sm-3 mt-md-0">
+        <div class="card shadow mt-sm-3 mt-lg-0">
           <img class="card-img-top" src="Photos/Muntenia.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title mt-sm-4 mt-md-3">muntenia</h5>
+            <h4 class="card-title mt-sm-4 mt-md-3">muntenia</h4>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ducimus.</p>
           </div>
         </div>
-        <div class="card mt-sm-3 mt-md-0">
+        <div class="card shadow mt-sm-3 mt-lg-0">
           <img class="card-img-top" src="Photos/Oltenia.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">oltenia</h5>
+            <h4 class="card-title">oltenia</h4>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ducimus.</p>
           </div>
         </div>
-
-      </div>
     </section>
+    <br>
+
+
+
+    <!--**********************  Forth Section / ABOUT  ************************-->
+    <section class="section_about">
+      <div class="about_text container">
+        <h1 class="text-center title">our story</h1>
+        <h2 class="text-center">he who doesn't have a past won't have a future</h2>
+      </div>
+      <div class="parallax_effect">
+      </div>
+      <p class="text-center container mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum aliquam ab
+        quod consectetur impedit doloribus voluptatum esse nostrum architecto pariatur id nulla voluptatibus eaque at,
+        voluptas neque necessitatibus
+        dolores quibusdam odit tenetur iure ipsam similique minus quasi. Fugit dicta quasi voluptatem eos labore.
+        Doloremque itaque, enim ad id porro, sapiente atque que modi?</p>
+    </section>
+    <br>
 
   </div>
 
 
+
   <!-- Optional JavaScript -->
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
+  <!-- Parallax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/path/to/parallax.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
+
 </body>
 
 </html>

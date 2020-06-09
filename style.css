@@ -1,3 +1,14 @@
 body {
     background: #ECE3DA;
 }
+
+
+/***** ABOUT SECTION PARALLAX EFFECT *********/
+.parallax_effect {
+    background-image: url(/Photos/principal1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
