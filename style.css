@@ -27,7 +27,7 @@ body {
     text-transform: uppercase;
     color: #F7F0F5;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 1.3rem;
     font-size: 4.5vw;
 }
 
@@ -35,9 +35,11 @@ body {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     font-size: 2.8vw;
+    margin-bottom: -15px;
+    margin-top: -10px;
 }
 
-.collapse_menu {
+.navbar-collapse {
     padding: 0.5rem;
 }
 
@@ -50,7 +52,17 @@ body {
     background-color: #92806C;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 1199px) {
+
+    .section_why,
+    .section_how,
+    .section_models {
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 574px) {
     .fa-home {
         margin-top: -3rem;
         font-size: 2.2em;
@@ -62,6 +74,11 @@ body {
 
     .header_subtitle {
         font-size: 5vw;
+        margin-bottom: 10px;
+    }
+
+    #hcontact {
+        margin-bottom: -0.5em;
     }
 }
 
@@ -69,12 +86,28 @@ body {
     .fa-home {
         font-size: 3em;
     }
+
+    .header_subtitle {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .fa-home {
         font-size: 3.5em;
     }
+
+    .header_title {
+        font-size: 3.5vw;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .header_subtitle {
+        font-size: 35px;
+    }
+
 }
 
 /*************************************************************** */
@@ -89,7 +122,6 @@ body {
     text-transform: uppercase;
     font-size: 7vw;
     color: #6F4D20;
-
 }
 
 #title {
@@ -100,13 +132,41 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 5vw;
+    }
 
+    #title {
+        font-size: 3vw;
+    }
+
+    #our_story {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .header_title {
+        font-size: 45px;
+    }
+
+    #title {
+        font-size: 3.5rem;
+    }
+
+
+}
 
 /************ MODELS **********/
+.models_subtitle {
+    font-size: 20px;
+}
 
-.card_title {
+.card_title1 {
     text-transform: capitalize;
     color: #6F4D20;
+    margin-bottom: 1rem;
 
 }
 
@@ -119,7 +179,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 40vh;
 }
 
 .parallax_effect_2 {
@@ -128,24 +188,22 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 40vh;
 }
 
 #our_story {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     font-size: 7vw;
     word-spacing: 0.05em;
     color: #6F4D20;
 }
 
-#question {
-    font-size: 4vw;
-    margin-bottom: auto;
-    color: #ae7832;
-}
-
 .author {
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #201609;
 }
 
 .fa-quote-left {
@@ -156,6 +214,16 @@ p {
     margin-left: 1rem;
 }
 
+.quote {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #201609;
+}
+
+.about_text {
+    color: #201609;
+}
 
 /************ CONTACT SECTION **********/
 .message {
@@ -163,9 +231,15 @@ p {
 }
 
 #contact_us {
-    font-size: 7vw;
+    font-size: 6vw;
     word-spacing: 0.05em;
 
+}
+
+#question {
+    font-size: 3.5vw;
+    margin-bottom: auto;
+    color: #ae7832;
 }
 
 form {
@@ -199,4 +273,22 @@ form:hover {
 
 .btn:hover {
     background-color: #8E6329;
+}
+
+
+
+/********** FOOTER  ************/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: #2F2923;
+}
+
+.copyright {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }

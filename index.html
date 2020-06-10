@@ -37,19 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link header_subtitle" href="#why">why</a>
+              <a class="nav-link header_subtitle ml-2" href="#why">why</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link header_subtitle" href="#how">how</a>
+              <a class="nav-link header_subtitle ml-2" href="#how">how</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link header_subtitle" href="#models">models</a>
+              <a class="nav-link header_subtitle ml-2" href="#models">models</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link header_subtitle" href="#about">about</a>
+              <a class="nav-link header_subtitle ml-2" href="#about">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link header_subtitle" href="#contact">contact</a>
+              <a class="nav-link header_subtitle ml-2" href="#contact" id="hcontact">contact</a>
             </li>
           </ul>
         </div>
@@ -62,13 +62,13 @@
 
 
     <!--********************  First Section / WHY  *************************-->
-    <section class="section_why container-fluid">
+    <section class="section_why container">
       <div class="row">
-        <div class="col-md-6 col-sm-12 mt-3 mb-4">
+        <div class="col-md-7 col-sm-12 mt-3 mb-3">
           <img src="/Photos/why.jpg" alt="#" class=" shadow img-fluid rounded" alt="Responsive image">
         </div>
 
-        <div class="col-md-6 col-sm-12 align-self-center">
+        <div class="col-md-5 col-sm-12 align-self-center">
           <h2 class="text-center title mt-3" id="title">why build a traditional house</h2>
           <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dolor
             voluptatum perferendis possimus
@@ -81,13 +81,13 @@
 
 
     <!--**********************  Second Section / HOW  ************************-->
-    <section class="section_how container-fluid mb-4">
+    <section class="section_how container mb-4">
       <div class="row">
-        <div class="col-md-6 col-sm-12 order-first order-md-2 ">
+        <div class="col-md-7 col-sm-12 mt-3 mb-3 order-first order-md-2 ">
           <img src="/Photos/how.jpg" alt="#" class=" shadow rounded img-fluid" alt="Responsive image">
         </div>
 
-        <div class="col-md-6 col-sm-12 align-self-center">
+        <div class="col-md-5 col-sm-12 align-self-center">
           <h2 class="text-center title mt-3" id="title">how it's built</h2>
           <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dolor
             voluptatum perferendis possimus
@@ -98,39 +98,46 @@
     <br id="models">
 
     <!--**********************  Third Section / MODELS  ************************-->
-    <section class="section_models container-fluid">
+    <section class="section_models container">
       <h2 class="text-center title mb-4" id="title">each region has it's character</h2>
-      <div class="card-deck text-center">
-        <div class="card shadow">
-          <img class="card-img-top" src="/Photos/Moldova.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card_title">moldova</h4>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem?</p>
+      <p class="models_subtitle text-center container">Architectural styles vary, as can be seen below from various
+        regions
+        of
+        the country
+      </p>
+      <div class="row">
+        <div class="card-deck text-center col-md-13">
+          <div class="card shadow">
+            <img class="card-img-top" src="/Photos/Moldova.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card_title1">moldova</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem?</p>
+            </div>
           </div>
-        </div>
-        <div class="card shadow">
-          <img class="card-img-top" src="/Photos/Transilvania.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card_title mt-sm-2">transilvania</h4>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, deleniti?</p>
+          <div class="card shadow">
+            <img class="card-img-top" src="/Photos/Transilvania.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card_title1 mt-sm-2">transilvania</h4>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, deleniti?</p>
+            </div>
           </div>
-        </div>
-        <!-- wrap every 2 on sm-->
-        <div class="w-100 d-sm-block d-lg-none">
-        </div>
-        <div class="card shadow mt-sm-3 mt-lg-0">
-          <img class="card-img-top" src="Photos/Muntenia.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card_title mt-sm-4 mt-md-3">muntenia</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ducimus.</p>
+          <!-- wrap every 2 on sm-->
+          <div class="w-100 d-sm-block d-lg-none">
           </div>
-        </div>
-        <div class="card shadow mt-sm-3 mt-lg-0">
-          <img class="card-img-top" src="Photos/Oltenia.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card_title">oltenia</h4>
-            <div id="about"></div>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ducimus.</p>
+          <div class="card shadow mt-sm-3 mt-lg-0">
+            <img class="card-img-top" src="Photos/Muntenia.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card_title1 mt-sm-4 mt-md-3">muntenia</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ducimus.</p>
+            </div>
+          </div>
+          <div class="card shadow mt-sm-3 mt-lg-0">
+            <img class="card-img-top" src="Photos/Oltenia.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card_title1">oltenia</h4>
+              <div id="about"></div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ducimus.</p>
+            </div>
           </div>
         </div>
     </section>
@@ -142,7 +149,7 @@
     <section class="section_about">
       <div class="about_text container">
         <h2 class="text-center title" id="our_story">our story</h2>
-        <h2 class="text-center incer"><i class="fas fa-quote-left"></i>deep roots are not <br> reached by the frost<i
+        <h2 class="quote"><i class="fas fa-quote-left"></i>deep roots are not <br> reached by the frost<i
             class="fas fa-quote-right"></i>
         </h2>
         <p class="author">J. R. R. Tolkien</p>
@@ -155,7 +162,7 @@
     </section>
     <section class="section_about">
       <div class="about_text container">
-        <h2 class="text-center incer">he who doesn't have a past won't have a future</h2>
+        <h2 class="text-center mb-3">he who doesn't have a past won't have a future</h2>
       </div>
       <div class="parallax_effect_2">
       </div>
@@ -205,26 +212,19 @@
     <br>
 
     <section>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita earum culpa qui doloremque sapiente quam
-      aliquam atque neque magni. Delectus quisquam esse asperiores quas maiores non, dignissimos nulla fuga, ex ratione
-      eum at. Labore dolor laudantium velit sequi libero odit quam. Cupiditate in sequi alias consectetur illum saepe
-      officia esse. A, optio quae eum, asperiores ipsa ullam iusto nobis dignissimos laudantium similique, earum nostrum
-      exercitationem rem labore vitae provident ad tenetur porro dolorem ducimus aliquam accusantium cupiditate
-      explicabo. Hic doloribus totam dicta corrupti facere consectetur tenetur quas, dolores explicabo unde debitis fuga
-      exercitationem quaerat distinctio voluptates at! Neque dignissimos id dolores architecto atque quo mollitia
-      aliquid molestias. At quae non error totam voluptates ab possimus provident. At similique nulla sunt beatae
-      impedit corporis totam, deleniti incidunt. Aspernatur, asperiores cum dolores, ex similique fugiat eaque
-      laboriosam hic corporis dolorem nam facere molestiae architecto odit? Laudantium vero ipsum, hic rem sapiente
-      itaque impedit architecto veritatis autem.
+      <footer>
+        <div class="copyright">
+          <i class="far fa-copyright"> 2020 ciprian boziean</i>
+        </div>
+      </footer>
     </section>
 
-    <i class="far fa-copyright"></i>
+
   </div>
 
 
 
   <!-- Optional JavaScript -->
-  scr
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
