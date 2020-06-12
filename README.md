@@ -8,4 +8,4 @@
 
 
 ## Credits <a name="credits"></a>
-Built & designed by Ciprian B.
+Built & designed by Ciprian.
